@@ -1,22 +1,29 @@
 import AppHeader from './components/AppHeader';
-import AppPost from './components/AppPost';
+import PostCard from './components/PostCard'
 import AppFooter from './components/AppFooter';
+import posts from './data/data'
 
 
 function App() {
- 
-
+  const publiscedPosts = posts.filter(post => post.published);
   return (
     <>
       <div className='app-container'>
         <AppHeader />
-          <main>
-            <AppPost />
-          </main>
-        <AppFooter/>
+        <main>
+          {publiscedPosts.map(post => (
+            <PostCard
+              key={post.id}
+              title={post.title}
+              image={post.image}
+              content={post.content}
+            />
+          ))}
+        </main>
+        <AppFooter />
       </div>
     </>
-  )
-}
+  );
+};
 
 export default App

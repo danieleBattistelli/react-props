@@ -1,0 +1,56 @@
+.post-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.post-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.post-card-content {
+    padding: 20px;
+}
+
+.post-card-title {
+    color: #333;
+}
+
+.post-card-text {
+    color: #555;
+    line-height: 1.6;
+}
+
+.post-card-tags {
+    margin-top: 10px;
+}
+
+.post-card-tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.post-card-button {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.post-card-button:hover {
+    background-color: #e0b600;
+}

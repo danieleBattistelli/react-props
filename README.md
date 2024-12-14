@@ -1,14 +1,20 @@
 ### react-components
 
 **Esercizio**
-Prendendo ispirazione dal layout fornito in allegato, creare la pagina iniziale di un blog con un post inserito al suo interno. Assicuratevi di suddividere il layout in componenti appropriati.
-Step per creare il progetto:
-1. Creiamo un progetto React utilizzando vite `npm create vite@latest .`
-2. Installiamo le dipendenze `npm install`
-3. Lanciamo il server di sviluppo `npm run dev`
-4. Creiamo una cartella `components` nella quale inseriremo i nostri componenti
+Milestone 1
+Partendo dall'esercizio di ieri e dall'array di posts allegato, l'obiettivo è creare dinamicamente gli articoli all'interno della pagina.
+I dati relativi a ciascun post dovranno essere passati come props ai componenti.
+Milestone 2
+Ogni post ha una proprietà **published**, e gli articoli devono essere mostrati solo se questa proprietà è impostata su `true`.
+Milestone 3
+Assegnate colori diversi ai tag dei posts, ad esempio: verde per html, rosa per css, etc…
+Milestone 4
+Se un post non ha un'immagine, inserite un'immagine di default, potete utilizzare uno dei tanti servizi online come:
+- https://placehold.co/
+- https://picsum.photos/
+Oppure scaricate l'immagine placeholder in locale
 BONUS:
-1. Invece di utilizzare un unico file index.css separiamo lo style utilizzando i CSS Modules
+Aggiungi una sezione nella pagina in cui mostrare la lista dei tag distinti senza ripetizioni.
 
 ### Dati
 
