@@ -41,6 +41,26 @@
     font-size: 12px;
 }
 
+.post-card-tag.html {
+    background-color: green;
+    color: white;
+}
+
+.post-card-tag.css {
+    background-color: pink;
+    color: white;
+}
+
+.post-card-tag.js {
+    background-color: yellow;
+    color: black;
+}
+
+.post-card-tag.php {
+    background-color: blue;
+    color: white;
+}
+
 .post-card-button {
     background-color: #ffd700;
     border: none;
